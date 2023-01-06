@@ -1,4 +1,4 @@
-const batJokes = require('./../jokes.json').batJokes;
+const batJokes = require('./../../jokes.json').batJokes;
 
 module.exports = function (msg) {
     const index = Math.floor(Math.random() * batJokes.length);
