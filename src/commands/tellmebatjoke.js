@@ -1,6 +1,12 @@
-const batJokes = require('./../../jokes.json').batJokes;
+const { SlashCommandBuilder } = require('discord.js');
+const { batJokes } = require('./../resources/jokes.json');
 
-module.exports = function (msg) {
-    const index = Math.floor(Math.random() * batJokes.length);
-    msg.channel.send(batJokes[index]);
+module.exports = {
+	data: new SlashCommandBuilder()
+		.setName('tellmebatjoke')
+		.setDescription('Responderá com uma piada ruim sobre o Batman 🦇.'),
+	async execute(interaction) {
+		const index = Math.floor(Math.random() * batJokes.length);
+		interaction.reply(batJokes[index]);
+	},
 };
