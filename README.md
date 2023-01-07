@@ -17,5 +17,6 @@
 
 ### Alguns comandos (com o tempo, talvez surgirá mais hehe)
 
-1. ***!tellmejoke*** - Irá responder no chat do canal com uma piada aleatória.
-2. ***!tellmebatjoke*** - Irá responder no chat do canal com uma piada aleatória sobre o Batman 🦇.
+1. ***/help*** - Lista os comandos do bot.
+2. ***/tellmejoke*** - Irá responder no chat do canal com uma piada aleatória 🤡.
+3. ***/tellmebatjoke*** - Irá responder no chat do canal com uma piada aleatória sobre o Batman 🦇.
