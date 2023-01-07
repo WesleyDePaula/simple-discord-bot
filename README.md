@@ -15,7 +15,7 @@
 
 #
 
-### Alguns comandos (com o tempo, talvez surgirá mais hehe)
+### Alguns comandos existentes
 
 1. ***/help*** - Lista os comandos do bot.
 2. ***/tellmejoke*** - Irá responder no chat do canal com uma piada aleatória 🤡.
